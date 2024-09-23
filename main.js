@@ -9,5 +9,6 @@ function areaquadrado(lado){
     return lado **2
 }
 console.log(areaquadrado(5));
-let areatriangulo= function(base, altura, 2)
-return base * altura
+let areatriangulo= function(base, altura,divisao){
+    return base * altura / divisao}
+console.log(areatriangulo(732,533,2))
