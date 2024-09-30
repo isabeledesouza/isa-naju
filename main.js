@@ -29,7 +29,18 @@
 // }
 // document.write(media(a, b, c))
 let estados =['Acre', 'Alagoas', 'Amapá', 'Amazonas', 'Bahia', 'Ceará', 'Distrito Federal', 'Espírito Santo', 'Goiás', 'Maranhão', 'Mato Grosso', 'Mato Grosso do Sul', 'Minas Gerais', 'Pará', 'Paraíba', 'Paraná', 'Pernambuco', 'Piauí', 'Rio de Janeiro', 'Rio Grande do Norte', 'Rio Grande do Sul', 'Rondônia', 'Roraima', 'Santa Catarina', 'São Paulo', 'Sergipe', 'Tocantins']
-let i =0;
-while(i<estados.length).{
-console.log(i); console.log(estados[i]);
-i=i+1
+// let i =0;
+// while(i<estados.length.){
+// console.log(i); console.log(estados[i]);
+// i++; 
+// }
+for(let i=0;i<estados.length; 1++){
+        console.log(estados[i]);
+}
+let idade=parseInt(prompt('sua idade'))
+if(idade>17){
+    console.log('já pode dirigir')
+}
+else{console.log('já pode dirigir')
+}
+
